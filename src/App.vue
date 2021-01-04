@@ -35,18 +35,21 @@
 
     <v-main>
       <Table />
+      <Total />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import Table from "./components/Table";
+import Total from "./components/Total"
 
 export default {
   name: "App",
 
   components: {
-    Table
+    Table,
+    Total
   },
 
   data: () => ({

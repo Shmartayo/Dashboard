@@ -10,7 +10,7 @@
   >
     <template v-slot:top>
       <v-toolbar flat>
-        <v-toolbar-title>Expandable Table</v-toolbar-title>
+        <v-toolbar-title>Administrator Dashboard</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-switch
           v-model="singleExpand"
@@ -97,6 +97,54 @@
           },
           {
             name: 'Sunday 10/01/2021',
+            total: 392,
+            deliveryprice: 20000,
+            markupprice: 10000,
+            costprice: 15000,
+            profits: '200000',
+          },
+          {
+            name: 'Tuesday 11/01/2021',
+            total: 237,
+            deliveryprice: 45000,
+            markupprice: 29000,
+            costprice: 15000,
+            profits: '15000',
+          },
+          {
+            name: 'Wednesday 12/01/2021',
+            total: 262,
+            deliveryprice: 16540,
+            markupprice: 23000,
+            costprice: 15000,
+            profits: '70000',
+          },
+          {
+            name: 'Thursday 13/01/2021',
+            total: 305,
+            deliveryprice: 35950,
+            markupprice: 19000,
+            costprice: 15000,
+            profits: '100000',
+          },
+          {
+            name: 'Friday 14/01/2021',
+            total: 356,
+            deliveryprice: 28500,
+            markupprice: 15000,
+            costprice: 15000,
+            profits: '150000',
+          },
+          {
+            name: 'Saturday 15/01/2021',
+            total: 375,
+            deliveryprice: 35000,
+            markupprice: 8000,
+            costprice: 15000,
+            profits: '180000',
+          },
+          {
+            name: 'Sunday 16/01/2021',
             total: 392,
             deliveryprice: 20000,
             markupprice: 10000,
