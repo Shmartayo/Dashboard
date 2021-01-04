@@ -2,27 +2,13 @@
   <v-data-table
     :headers="Total"
     :items="total"
-    :single-expand="singleExpand"
-    :expanded.sync="expanded"
     item-key="name"
-    show-expand
     class="elevation-1"
   >
     <template v-slot:top>
       <v-toolbar flat>
         <v-toolbar-title>Total Table</v-toolbar-title>
-        <v-spacer></v-spacer>
-        <v-switch
-          v-model="singleExpand"
-          label="Single expand"
-          class="mt-2"
-        ></v-switch>
       </v-toolbar>
-    </template>
-    <template v-slot:expanded-item="{ headers, item }">
-      <td :colspan="headers.length">
-        More info about {{ item.name }}
-      </td>
     </template>
   </v-data-table>
 </template>  
@@ -30,8 +16,6 @@
   export default {
     data () {
       return {
-        expanded: [],
-        singleExpand: false,
         Total: [
           {
             text: 'Total',
