@@ -35,7 +35,11 @@
 
     <v-main>
       <Table />
-      <Total />
+      <v-footer app>
+        <v-col>
+          <Total />
+        </v-col>
+      </v-footer>
     </v-main>
   </v-app>
 </template>
